@@ -4,7 +4,7 @@ description = "Crate slicing"
 repository = "https://github.com/EthanYidong/dao"
 documentation = "https://github.com/EthanYidong/dao"
 homepage = "https://github.com/EthanYidong/dao"
-version = "0.1.1"
+version = "0.2.0"
 authors = ["EthanYidong <ethanyidong@gmail.com>"]
 edition = "2018"
 license = "MIT"
@@ -20,3 +20,5 @@ wasm-pack = "0.9"
 glob = "0.3"
 
 thiserror = "1.0"
+
+structopt = { version = "0.2", default-features = false }

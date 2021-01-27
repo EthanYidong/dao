@@ -177,10 +177,11 @@ dependencies = [
 
 [[package]]
 name = "cargo-dao"
-version = "0.1.1"
+version = "0.2.0"
 dependencies = [
  "glob 0.3.0",
  "proc-macro2 1.0.24",
+ "structopt",
  "syn 1.0.60",
  "thiserror",
  "wasm-pack",
